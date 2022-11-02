@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/waller favicon.png" type="image/x-icon">
+    <title>Waller Design</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+
+        const btnMobile = document.getElementById('mobile');
+
+            function toggleMenu() {
+                const navbarmobile = document.getElementById('navbarmobile');
+                navbarmobile.classList.toggle('active');
+            }
+
+        btnMobile.addEventListener('click', toggleMenu);
+
+    </script>
+
+
+</head>
+<body>
+    <header>
+        <section id="logo" class="content">
+            <img src="imagens/Logo png alternativo.png" alt="Logo marca Waller Design">
+        </section>
+
+        <nav id="navbar" class="content desktop" >
+            <ul id="btn-links-1" class="content">
+                <li class="botoes-config">Identidade Visual</li>
+                <li class="botoes-config">Social Media</li>
+                <li class="botoes-config"><a class="links" target="_blank" rel="external" href="https://wa.me/5534988283810">Consultoria</a></li>
+                <li class="botoes-config">Contato</li>
+            </ul>
+        </nav>
+
+        <nav id="navbarmobile" class="mobile content">
+            <div id="mobile" class="content">
+                <div class="span"></div>
+                <div class="span"></div>
+                <div class="span"></div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="pagina-1">
+            <section id="page-1">
+                <article id="apresentacao" class="content">
+                    <p class="content" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi rem neque amet quasi! Impedit consequuntur iusto, facilis omnis, accusamus, laudantium facere vel eligendi veritatis eum doloribus doloremque aliquam officiis! Dicta! Lorem. Officiis vitae odit corporis dolorem vero? Veritatis, architecto! Cum expedita officia illo minima modi rem nulla veniam porro, deserunt perspiciatis. Repudiandae, veniam!</p>
+                </article>
+                <article id="foto" class="content">
+                    <img  class="content" src="imagens/Foto Bruno e Duda Recorte.jpeg" alt="Maria Eduarda e Bruno Puppin">
+                </article>
+            </section>
+
+            <section id="menu-bar" class="content">
+                <article class="btns">
+                    <h1>Identidade Visual</h1>
+                </article>
+                <article class="btns">
+                    <h1>Social Media</h1>
+                </article>
+                <article class="btns">
+                    <h1><a class="links" target="_blank" rel="external" href="https://wa.me/5534988283810">Consultoria</a></h1>
+                </article>
+            </section>
+        </section>
+
+        <section id="pagina-2">
+
+            <h1 id="construcao">Página em construção</h1>
+        </section>
+
+
+    </main>
+
+</body>
+</html>

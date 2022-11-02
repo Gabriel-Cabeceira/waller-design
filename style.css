@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Sora', sans-serif;
+}
+
+/*Cabeçalho*/
+/*Cabeçalho*/
+/*Cabeçalho*/
+/*Cabeçalho*/
+
+header{
+    width: 100%;
+    height: 90px;
+    background-color: #B4B3DD;
+    display: flex;
+}
+
+#logo{
+    height: 70px;
+    width: 200px;
+    left: 2%;
+}
+
+.content{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#logo > img{
+    width: 200px;
+    height: 70px;
+}
+
+#navbar{
+    height: 25px;
+    left: 36%;
+    color: #1F135F;
+    max-width: 530px;
+    min-width: 200px;
+    font-size: 1.1em;
+}
+
+@media (max-width: 970px){
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        padding: 18px;
+        align-items: flex-end;
+        height: 30px;
+        width: 30px;
+        position: relative;
+        margin-left: auto;
+    }
+}
+
+#navbarmobile{
+    cursor: pointer;
+}
+
+
+#btn-links-1{
+    display: flex;
+    list-style: none;
+}
+
+.botoes-config{
+    padding: 8px 10px 8px 10px;
+}
+
+.links{
+    text-decoration: none;
+    color: #1F135F;
+}
+
+.botoes-config:hover{
+    background-color: #DCE3EB;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+@media (min-width: 970px){
+    .mobile{
+        display: none;
+    }
+}
+
+.botao:hover{
+    background-color: #DCE3EB;
+}
+
+.span {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 1.5px;
+}
+/*Cabeçalho-FIM*/
+/*Cabeçalho-FIM*/
+/*Cabeçalho-FIM*/
+/*Cabeçalho-FIM*/
+
+
+
+/*PÁGINA 1*/
+/*PÁGINA 1*/
+/*PÁGINA 1*/
+/*PÁGINA 1*/
+
+#pagina-1{
+    background-image: linear-gradient(#B4B3DD, #E0C7E5);
+    height: 570px;
+}
+
+@media (max-width: 655px){
+    #pagina-1{
+        height: 1000px;
+    }
+}
+
+#page-1{
+    max-width: 700px;
+    min-width: 200px;
+    height: 430px;
+    display: flex;
+    color: #1F135F;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+#apresentacao{
+    max-width: 320px;
+    min-width: 200px;
+    height: 300px;
+    font-size: 1em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#foto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#foto > img{
+    height: 300px;
+    width: 320px;
+}
+
+#menu-bar{
+    height: 30px;
+    max-width: 930px;
+    margin: auto;
+    position: relative;
+    top: 0.6%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 655px){
+    #menu-bar{
+        top: 33%;
+    }
+}
+
+.btns{
+    margin: auto;
+    color: #1F135F;
+    padding: 10px 80px 10px 80px;
+    max-width: 300px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btns:hover{
+    background-color: #DCE3EB;
+}
+
+
+
+/*PÁGINA 1*/
+/*PÁGINA 1*/
+/*PÁGINA 1*/
+/*PÁGINA 1*/
+
+
+/*PÁGINA 2*/
+/*PÁGINA 2*/
+/*PÁGINA 2*/
+/*PÁGINA 2*/
+
+#pagina-2{
+    background-color: #DCE3EB;
+    height: 625px;
+    display: flex;
+}
+
+#construcao{
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    color: #1F135F;
+    font-size: 3em;
+}
